@@ -14,3 +14,4 @@ if ($id == 0) {
     $sql = "UPDATE tb_cliente SET nome='$nome', cpf='$cpf', endereco='$endereco' WHERE idcliente=$id";
 }
 mysqli_query($conexao, $sql);
+

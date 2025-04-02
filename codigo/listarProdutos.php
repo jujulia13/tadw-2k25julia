@@ -21,7 +21,9 @@
             <td colspan="2">Ação</td>
         </tr>
             <?php
-                require_once "conexao.php";
+            require_once "../conexao.php";
+            require_once "../funcoes.php";
+                
 
                 $sql = "SELECT * FROM tb_produto";
 

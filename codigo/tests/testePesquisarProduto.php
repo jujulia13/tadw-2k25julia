@@ -3,9 +3,9 @@
 require_once "../conexao.php";
 require_once "../funcoes.php";
 
-$idcliente = 7;
+$idproduto = 3;
 
 echo "<pre>";
-print_r (pesquisarProdutoId ($conexao, $idproduto));
-echo "<pre>";
+print_r(pesquisarProdutoId($conexao, $idproduto));
+echo "</pre>";
 ?>
